@@ -1,0 +1,57 @@
+{
+  "name": "Charts & Play",
+  "extensions": [
+    {
+      "id": "io.github.mark.charts_play",
+      "name": "Charts & Play",
+      "version": "1.1.0",
+      "versionCode": 2,
+      "apiVersion": 1,
+      "author": "Mark",
+      "description": "Charts, Songsuche und Wiedergabe über SoundCloud (eigene API-Zugangsdaten), Audius oder Deezer-Vorschau.",
+      "actions": [
+        {
+          "name": "home.sections",
+          "why": "Zeigt Charts, Alben und Künstler auf der Startseite"
+        },
+        {
+          "name": "search.provide",
+          "why": "Ergänzt die Suche um Songs, Alben und Künstler"
+        },
+        {
+          "name": "audio.source",
+          "why": "Liefert die Audioquelle (SoundCloud, Audius, Deezer-Vorschau)"
+        },
+        {
+          "name": "network",
+          "hosts": [
+            "api.deezer.com",
+            "api.audius.co",
+            "api.soundcloud.com",
+            "secure.soundcloud.com"
+          ],
+          "why": "Fragt Deezer, Audius und SoundCloud nach Charts, Suche und Audio"
+        },
+        {
+          "name": "storage",
+          "why": "Merkt sich das SoundCloud-Token für eine Stunde"
+        },
+        {
+          "name": "settings.page",
+          "why": "SoundCloud-Zugangsdaten und Vorschau-Fallback"
+        }
+      ],
+      "category": "discovery",
+      "tags": [
+        "charts",
+        "search",
+        "soundcloud",
+        "audius",
+        "deezer"
+      ],
+      "url": "io.github.mark.charts_play-1.1.0.zip",
+      "sha256": "bf34d6d62a9a006108b2e316db02e07c9aecacae9b90e9eb9cc54f39e82632a0",
+      "size": 3466
+    }
+  ]
+}
